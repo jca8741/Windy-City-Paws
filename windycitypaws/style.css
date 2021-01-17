@@ -1,0 +1,494 @@
+header {
+    background: rgb(231, 124, 176);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    z-index: 50;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 4vw;
+    margin: 2%;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 30pt;
+    margin: 1%;
+}
+
+h3 {
+    font-size: 15pt;
+    margin: 2%;
+}
+
+h4 {
+    font-size: 15pt;
+    margin: 0%;
+}
+
+h5 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 20pt;
+}
+
+p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.5vh;
+    font-weight: 500;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border-radius: 25px;
+    margin: 0%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+button {
+    height: 5%;
+    width: 30%;
+    background-color: pink;
+    border-radius: 25px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    font-size: 10pt;
+}
+
+button:hover {
+    color: rgb(243, 239, 29);
+    background-color: red;
+}
+
+a:hover {
+    color: rgb(243, 239, 29);
+    box
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(79, 183, 224);
+  color: white;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  background-image: url(images/paws.png);
+} 
+
+footer {
+    background: rgb(231, 124, 176);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+
+}
+
+.ham {
+    display: none;
+}
+
+.logo {
+    float: left;
+    display: flex;
+    margin-left: 1%;
+    align-items: center;
+}
+
+.topnav {
+    display: none;
+}
+
+.topnav1 {
+    float: right;
+    display: flex;
+    margin-right: 1%;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.contact {
+   padding: 2%;
+   text-align: right;
+}
+
+.other {
+    float: right;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin-right: 1%;
+}
+
+.container {
+    margin-right: 5%;
+}
+
+#card-empty {
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+}
+
+#card-about {
+    background-image: url(images/about.png);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 1.5%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 150px;
+    border-radius: 25px;
+    height: 75vh;
+    width: auto;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.8);
+}
+
+#card-about-info {
+    background: rgba(255, 42, 42, 0.7);
+    border-radius: 25px;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    box-shadow: 11px 10px rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+#card-services {
+    background-image: url(images/services.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 1.5%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 150px;
+    border-radius: 25px;
+    height: 75vh;
+    width: auto;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.8);
+}
+
+#card-services-info {
+    background: rgba(255, 42, 42, 0.7);
+    border-radius: 25px;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    box-shadow: 11px 10px rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+#card-team {
+    background-image: url(images/team.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 1.5%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 150px;
+    border-radius: 25px;
+    height: 75vh;
+    width: auto;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.8);
+}
+
+#card-team-info {
+    background: rgba(255, 42, 42, 0.7);
+    border-radius: 25px;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    box-shadow: 11px 10px rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+#card-book {
+    background-image: url(images/book.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 1.5%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 150px;
+    border-radius: 25px;
+    height: 75vh;
+    width: auto;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.8);
+}
+
+#card-book-info {
+    background: rgba(255, 42, 42, 0.7);
+    border-radius: 25px;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    box-shadow: 11px 10px rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+#card-about-info::-webkit-scrollbar {
+    display: none;
+}
+
+#card-services-info::-webkit-scrollbar {
+    display: none;
+}
+
+#card-team-info::-webkit-scrollbar {
+    display: none;
+}
+
+#card-book-info::-webkit-scrollbar {
+    display: none;
+}
+
+
+.container {
+    padding: 16px;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 25px;
+  }
+
+  input[type=description] {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 25px;
+  }
+
+
+  
+  input[type=text]:focus, input[type=password]:focus, input[type=description]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+
+  @media screen and (max-width: 825px) {
+    h1 {
+        font-family: 'Fredoka One', cursive;
+        font-size: 35pt;
+        margin: 2%;
+    }
+    
+    h5 {
+        font-family: 'Fredoka One', cursive;
+        font-size: 15pt;
+    }
+
+    p {
+        font-family: 'Didact Gothic', sans-serif;
+        font-size: 17pt;
+        font-weight: 500;
+        text-align: left;
+    }
+    
+    #card-about {
+        flex-direction: column;
+    }
+
+    #card-empty {
+        height: 50%;
+        width: auto;
+    }
+
+    #card-about {
+        background-position: left;
+    }
+
+    #card-about-info {
+
+        height: 70%;
+        width: auto;
+        margin: 3%;
+    }
+
+    #card-services {
+        background-position: left;
+    }
+
+    #card-services-info {
+        height: 60%;
+        width: auto;
+        margin: 3%;
+    }
+
+    #card-team {
+        background-position: left;
+    }
+
+    #card-team-info {
+        height: 60%;
+        width: auto;
+        margin: 3%;
+    }
+
+    #card-book {
+        background-position: left;
+    }
+
+    #card-book-info {
+        height: 60%;
+        width: auto;
+        margin: 3%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    button {
+        height: 7%;
+        width: 30%;
+        background-color: pink;
+        border-radius: 25px;
+        font-family: 'Fredoka One', cursive;
+        color: black;
+        font-size: 10pt;
+    }
+    
+    button:hover {
+        color: rgb(243, 239, 29);
+        background-color: red;
+    }
+
+    .topnav {
+        display: inline;
+    }
+
+    nav.topnav1 {
+        display: none;
+    }
+    .ham {
+        display: inline;
+        position: absolute;
+        /* always keep ham on top of everything */
+        z-index: 1000;
+        top: 20px;
+        right: 20px;
+        width: 36px;
+        height: 36px;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        /* show the menu image */
+        background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+        background-size: 100%;
+      }
+
+    /* change ham image to close */
+    .showClose {
+        background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
+    }
+
+    .topnav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: rgb(231, 124, 176);
+        width: 40%;
+        height: 40vh;
+        overflow: hidden;
+        color: white;
+        /* hide the menu above the screen by default */
+        transform: translateY(-100%);
+        /* transition adds a little animation when sliding in and out the menu */
+        transition: transform 0.2s ease;
+      }
+
+    .showNav {
+        /* show the menu */
+        transform: translateY(0);
+      }
+    
+      .topnav ul {
+        width: 70%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: flex-end;
+      }
+      
+      .topnav ul li a {
+        color: white;
+        padding-bottom: 10px;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+      }
+      
+      .topnav ul li a:hover, .topnav ul li a:focus {
+        border-bottom: 2px solid white;
+      }
+}
